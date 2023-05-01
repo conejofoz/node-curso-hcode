@@ -40,7 +40,15 @@ build/Release
 
 # Dependency directories
 node_modules/
+secao-3/node_modules/
 jspm_packages/
+
+
+
+
+
+
+
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
