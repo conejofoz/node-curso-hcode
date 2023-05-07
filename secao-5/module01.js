@@ -4,9 +4,11 @@ const oculta = () => {
     console.log('Executando função oculta')
 }
 
-module.exports.executa = () => {
+executa = () => {
     console.log('Executando função executa')
 }
 
-module.exports.welcome = `Bem vindo módulo module-01.js`
+welcome = `Bem vindo módulo module-01.js`
+
+module.exports = { executa, welcome }
 
