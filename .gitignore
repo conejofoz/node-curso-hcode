@@ -41,7 +41,9 @@ build/Release
 # Dependency directories
 node_modules/
 secao-3/node_modules/
+secao-6/node_modules/
 jspm_packages/
+ffmpeg/
 
 
 
