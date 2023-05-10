@@ -2,6 +2,8 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
+const subscribers = require('./routes/subscribers')
+app.use('/subscribers', subscribers)
 
 /* Conexao com o bd */
 mongoose.connect(process.env.DATABASE_STRING, { useNewUrlParser: true, useUnifiedTopology: true })
