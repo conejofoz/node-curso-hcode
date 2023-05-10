@@ -42,6 +42,8 @@ build/Release
 node_modules/
 secao-3/node_modules/
 secao-6/node_modules/
+secao-8/exp/node_modules/
+secao-8/exp/hcodeApp/node_modules/
 jspm_packages/
 ffmpeg/
 
